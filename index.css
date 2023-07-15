@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto/LICENSE.txt");
+    src: url("./Roboto/Roboto-Black.ttf");
+    src: url("./Roboto/Roboto-Italic.ttf");
+    src: url("./Roboto/Roboto-LightItalic.ttf");
+    src: url("./Roboto/Roboto-Regular.ttf");
+}
+*{
+    font-family:"Roboto" ;
+}
+
+
+
+
+
+
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:40px 0px;
+}
+.nav .my-ul{
+    
+list-style-type: none;
+
+}
+.nav .my-ul li{
+
+    margin: 0px 20px;
+    display: inline-block;
+}
+.nav .my-ul li a{
+        color: rgba(0, 0, 0, 0.627);
+}
+
+.my-body img{
+    width: 100%;
+}.my-body .h2-my{
+    font-size: 50px;
+}
+button{
+    width: 180px;
+}
+.sa{
+
+    color: white;
+    background-color: black;
+}
+
+.h2-my{
+    font-weight: bold;
+}
+.sa h2{
+    margin-top: 10px;
+    color: hsl(35, 77%, 62%);
+  font-weight: bold;
+}
+.end span{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.489);
+}
+.par h3{
+    font-size: 16px;
+
+}.merh{
+    margin-top: 16px;
+}
+.my-body{
+    margin: 20px 0px;
+}
+.par {margin-top: 20px;}
+
+.merhaba {
+    display: none;
+}
+@media (max-width:1000px) {
+
+.merhaba {
+        display: block;
+    }
+.nav .my-ul li {
+        display: block;
+        color: white;
+      margin: 20px 10px;
+    }
+        .my-ul{
+            display: none;
+            position: absolute;
+           width: 75%;
+        height: 100%;
+         right: 0;
+            top: 75px;
+            z-index: 1;
+            background: black;
+        box-shadow: 100px;
+
+         
+        }
+                .nav .my-ul li a {color: white
+
+                }
+}
+.dis {
+    display: block;
+}
+.sa .ppp::after{
+    margin-top: 20px;
+content: '';
+width: auto;
+border: 1px solid rgba(101, 98, 98, 0.571);
+left: 0;
+display: block;
+}
+.sa h3{
+    font-size: 18px;
+}
+.sa p{
+
+color:hsl(233, 8%, 79%);
+
+
+
+}
+.bg-dark {
+    color: white;
+    background-color: #212529 !important;
+}
